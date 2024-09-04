@@ -30,4 +30,13 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+  .color-red {
+    color: #ee3123;
+  }
+  .bg-red {
+    background-color: #ee3123;
+  }
+  .hero {
+    /* background-image: url(); */
+  }
 }
