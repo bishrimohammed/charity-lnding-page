@@ -27,7 +27,7 @@ const NewsEvent = () => {
             </button>
           </div>
         </div>
-        <div className="flex md:flex-row flex-col items-center gap-5  justify-between">
+        <div className="flex md:flex-row flex-col items-center gap-5  justify-between text-start">
           <div className="md:w-[50%] w-full  space-y-3">
             {" "}
             <div className="relative">

@@ -4,8 +4,8 @@ import React from "react";
 const OurWork = () => {
   return (
     <div className=" py-[3%] flex items-center justify-center font-montserrat">
-      <div className="md:w-[75%] w-full flex md:flex-row flex-col  justify-between">
-        <div className="md:p-2 p-5  md:w-[43%] w-full flex flex-col gap-5">
+      <div className="md:w-[75%] w-[92%]  flex md:flex-row flex-col  justify-between">
+        <div className="md:p-2 md:w-[43%] w-full flex flex-col gap-5">
           <h2 className="text-3xl text-[#444] font-bold font-playfair">
             How we’re making A <br /> Difference
           </h2>
@@ -51,7 +51,7 @@ const OurWork = () => {
       /> */}
         </div>
         <div className="md:w-[50%] md:h-[550px] md:p-2 p-5  w-full bg-[#D3E6FCD] relative flex">
-          <div className="  w-[40%] hidden  absolute z-10 top-6 -right-10 me-1 md:flex ">
+          <div className="  w-[40%] hidden  absolute z-10 top-6 right-0 me-2 md:flex ">
             <div className="bg-[#FCD6D3] p-2">
               <Image
                 src="/image4.png"

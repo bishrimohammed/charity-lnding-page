@@ -4,7 +4,7 @@ import React from "react";
 const AboutUs = () => {
   return (
     <div className="py-[3%] flex items-center justify-center">
-      <div className="w-[75%] h-full flex md:flex-row flex-col items-center justify-between space-y-2">
+      <div className="md:w-[75%] w-[92%] h-full flex md:flex-row flex-col items-center justify-between space-y-2">
         <div className="p-2  md:w-[45%] w-[100%] bg-[#FCD6D3]">
           <Image
             src="/image3.png"

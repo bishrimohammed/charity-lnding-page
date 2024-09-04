@@ -39,15 +39,15 @@ const NavBar = () => {
         </div>
       </div>
 
-      <div
-        className={`lg:hidden flex flex-col items-center gap-2 z-40 bg-gray-900 pb-5 transition-transform duration-300 ease-in-out 
-          // ${
-            showMenu ? "translate-y-0 opacity-100" : "-translate-y-5 opacity-0"
+      {showMenu && (
+        <>
+          {" "}
+          <div
+            style={{ backgroundColor: "rgba(0,0,0,0.7)" }}
+            className={`lg:hidden flex flex-col items-center gap-2 z-40  pb-5 transition-transform duration-300 ease-in-out 
+         
           }`}
-      >
-        {showMenu && (
-          <>
-            {" "}
+          >
             <ul className="flex flex-col w-full  text-white  font-montserrat font-semibold text-center">
               {/* <li className="text-base cursor-pointer">Home</li> */}
               <li className="text-base cursor-pointer p-1">About Us</li>
@@ -65,9 +65,9 @@ const NavBar = () => {
                 Donate
               </button>
             </div>
-          </>
-        )}
-      </div>
+          </div>
+        </>
+      )}
     </header>
   );
 };
