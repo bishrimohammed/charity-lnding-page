@@ -7,7 +7,7 @@ import { MdMenu } from "react-icons/md";
 const NavBar = () => {
   const [showMenu, setShowMenu] = useState(false);
   return (
-    <header className="   z-30 relative">
+    <header className="z-30 relative">
       <div className="flex items-center justify-between py-[20px]  md:px-[10%] px-[5%]">
         <div>
           <Image src="/logo.png" alt="" width={25} height={25} />
