@@ -20,7 +20,7 @@ const FooterItems = () => {
           <div>
             <h3 className="font-bold mb-3">Quick Links</h3>
             <p className="text-sm mb-1">About Us</p>
-            <p className="text-sm mb-1">FAQ's</p>
+            <p className="text-sm mb-1">FAQ&apos;s</p>
             <p className="text-sm mb-1">What We Do</p>
             <p className="text-sm mb-1">Get Involved</p>
             <p className="text-sm mb-1">News And Events</p>
